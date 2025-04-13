@@ -6,8 +6,8 @@ Este projeto realiza a previsão de vendas para os produtos mais vendidos em um 
 
 ## 📁 Estrutura esperada
 
-- `datasheet_vendas_pfc.csv` → arquivo com os dados de vendas históricos
-- `previsao_estoque.py` → script principal do projeto
+- `dados_vendas.csv` → arquivo com os dados de vendas históricos
+- `analise_estoque.py` → script principal do projeto
 
 ---
 
@@ -18,4 +18,4 @@ Antes de rodar, certifique-se de ter o Python instalado (recomenda-se Python 3.9
 ### Instalar as dependências
 
 ```bash
-pip install pandas matplotlib scikit-learn
+pip install pandas numpy scikit-learn openpyxl
